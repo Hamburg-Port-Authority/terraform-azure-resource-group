@@ -8,7 +8,7 @@ The module is used to deploy azure resource groups over terraform with a default
 
     module "resource_groups" {
 
-    source      = "github.com/la-cc/terraform-azure-resource-group?ref=1.0.0"
+    source      = "github.com/Hamburg-Port-Authority/terraform-azure-resource-group?ref=1.0.1"
 
     name        = var.name
     location    = var.location
